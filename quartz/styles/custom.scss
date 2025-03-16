@@ -4,13 +4,13 @@
 
 // Katex
 .katex-display {
-    display: block;
-    margin: 1em 0;
-    text-align: center;
+    display: block !important;
+    margin: 1em 0 !important;
+    text-align: center !important;
 
     > .katex {
-        display: inline-block;
-        text-align: initial;
+        display: inline-block !important;
+        text-align: initial !important;
     }
 }
 
