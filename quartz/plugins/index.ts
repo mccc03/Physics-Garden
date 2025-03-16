@@ -54,3 +54,5 @@ declare module "vfile" {
     relativePath: FilePath
   }
 }
+
+export { MathBlockFixer } from "./transformers/fix_block_latex";
