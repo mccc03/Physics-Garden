@@ -2,18 +2,6 @@
 
 // put your custom CSS here!
 
-// Katex
-.katex-display {
-    display: block !important;
-    margin: 1em 0 !important;
-    text-align: center !important;
-
-    > .katex {
-        display: inline-block !important;
-        text-align: initial !important;
-    }
-}
-
 // Center image
 img {
     display: block !important;
@@ -24,3 +12,219 @@ img {
 .markdown-source-view.mod-cm6 .cm-content > * {
     margin: auto auto !important;
 }
+
+// Callouts
+/* Definition */
+.callout[data-callout="def"] {
+    background-color: rgba(129, 161, 193, 0.2); /* Semi-transparent blue */
+    border-top: 4px solid #81a1c1; /* Blue top border */
+    border-left: 4px solid #81a1c1; /* Blue left border */
+    border-right: none; /* No border on the right */
+    border-bottom: none; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+/* Customize the title within the callout */
+.callout[data-callout="def"] .callout-title {
+    color: #81a1c1;
+    font-weight: bold; /* Bold title */
+    font-size: 1.2em; /* Slightly larger title */
+}
+
+/* Add a custom emoji icon explicitly */
+.callout[data-callout="def"] .callout-title::before {
+    content: "🔮"; /* Use your custom emoji or character */
+    margin-right: 8px; /* Spacing between the icon and the title */
+}
+
+/* Theorem */
+.callout[data-callout="th"] {
+    background-color: rgba(189, 147, 249, 0.2); /* Semi-transparent lavender (base color B48EAD) */
+    border-top: 4px solid #BD93F9; /* Lavender top border */
+    border-left: 4px solid #BD93F9; /* Lavender left border */
+    border-right: none; /* No border on the right */
+    border-bottom: none; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+/* Customize the title within the theorem callout */
+.callout[data-callout="th"] .callout-title {
+    color: #BD93F9;
+    font-weight: bold; /* Bold title */
+    font-size: 1.2em; /* Slightly larger title */
+}
+
+/* Add a custom emoji icon explicitly */
+.callout[data-callout="th"] .callout-title::before {
+    content: "🔭"; /* Icon for the theorem */
+    margin-right: 8px; /* Spacing between the icon and the title */
+}
+
+/* Proof */
+.callout[data-callout="proof"] {
+    background-color: rgba(180, 142, 173, 0.2); /* Semi-transparent purple (base color BD93F9) */
+    border-top: 4px solid #B48EAD; /* Purple top border */
+    border-left: 4px solid #B48EAD; /* Purple left border */
+    border-right: none; /* No border on the right */
+    border-bottom: none; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+/* Customize the title within the proof callout */
+.callout[data-callout="proof"] .callout-title {
+    color: #B48EAD; /* Darker purple for the title */
+    font-weight: bold; /* Bold title */
+    font-size: 1.2em; /* Slightly larger title */
+}
+
+/* Add a custom emoji icon explicitly for the proof */
+.callout[data-callout="proof"] .callout-title::before {
+    content: "🔬"; /* Use your custom emoji or character for the proof */
+    margin-right: 8px; /* Spacing between the icon and the title */
+}
+
+/* Algorithm */
+.callout[data-callout="algo"] {
+    background-color: rgba(94, 129, 174, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #5E81AE; /* Blue top border */
+    border-left: 4px solid #5E81AE; /* Blue left border */
+    border-right: none; /* No border on the right */
+    border-bottom: none; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="algo"] .callout-title {
+    color: #5E81AE;
+    font-weight: bold; /* Bold title */
+    font-size: 1.2em; /* Slightly larger title */
+}
+
+/* Add a custom emoji or symbol for the algorithm callout */
+.callout[data-callout="algo"] .callout-title::before {
+    content: "👾"; /* Custom emoji or symbol for algorithm */
+    margin-right: 8px; /* Spacing between the icon and the title */
+    font-size: 1.2em; /* Adjust the size of the emoji/icon */
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/* Metadata */
+.callout[data-callout="metadata"] {
+    background-color: rgba(67, 45, 105, 0.2); /* Semi-transparent royal purple (base color 5E81AE) */
+    border-top: 4px solid #432d69; /* royal purple top border */
+    border-left: 4px solid #432d69; /* royal purple left border */
+    border-right: 4px solid #432d69; /* No border on the right */
+    border-bottom: 4px solid #432d69; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-braces;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="metadata"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
+/* Bibliography */
+.callout[data-callout="biblio"] {
+    background-color: rgba(94, 129, 174, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #5E81AE; /* blue top border */
+    border-left: 4px solid #5E81AE; /* blue left border */
+    border-right: 4px solid #5E81AE; /* No border on the right */
+    border-bottom: 4px solid #5E81AE; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-library-big;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="biblio"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
+/* Abstract */
+.callout[data-callout="abstract"] {
+    background-color: rgba(98, 166, 162, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #62a6a1; /* blue top border */
+    border-left: 4px solid #62a6a1; /* blue left border */
+    border-right: 4px solid #62a6a1; /* No border on the right */
+    border-bottom: 4px solid #62a6a1; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-notepad-text;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="biblio"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
+/* Citations */
+.callout[data-callout="citations"] {
+    background-color: rgba(168, 50, 100, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #a83264; /* blue top border */
+    border-left: 4px solid #a83264; /* blue left border */
+    border-right: 4px solid #a83264; /* No border on the right */
+    border-bottom: 4px solid #a83264; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-file-heart;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="citations"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
+/* Links */
+.callout[data-callout="link"] {
+    background-color: rgba(201, 123, 195, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #c97bc3; /* blue top border */
+    border-left: 4px solid #c97bc3; /* blue left border */
+    border-right: 4px solid #c97bc3; /* No border on the right */
+    border-bottom: 4px solid #c97bc3; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-link;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="link"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
+
+/* pdf */
+.callout[data-callout="pdf"] {
+    background-color: rgba(228, 184, 96, 0.2); /* Semi-transparent blue (base color 5E81AE) */
+    border-top: 4px solid #E4B860; /* blue top border */
+    border-left: 4px solid #E4B860; /* blue left border */
+    border-right: 4px solid #E4B860; /* No border on the right */
+    border-bottom: 4px solid #E4B860; /* No border at the bottom */
+    padding: 12px; /* Adjust padding for a clean look */
+    border-radius: 4px; /* Optional: rounded corners */
+    --callout-icon: lucide-scroll-text;
+}
+
+/* Customize the title within the algorithm callout */
+.callout[data-callout="pdf"] .callout-title {
+    color: #ffffff;
+    font-weight: bold; /* Bold title */
+    font-size: 1em; /* Slightly larger title */
+}
+
