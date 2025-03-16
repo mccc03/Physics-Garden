@@ -1,3 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Katex
+.katex-display {
+    display: block;
+    margin: 1em 0;
+    text-align: center;
+
+    > .katex {
+        display: inline-block;
+        text-align: initial;
+    }
+}
+
+// Center image
+img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+    margin: auto auto !important;
+}
