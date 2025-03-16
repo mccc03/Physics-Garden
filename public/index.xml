@@ -15,7 +15,7 @@
     <title>Hadamard Gate</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Hadamard-Gate</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Hadamard-Gate</guid>
-    <description> The Hadamard gate is a transformation induced on Qubits carried out by the operator: H \equiv \frac{1}{\sqrt{2}} \begin{pmatrix}1 &amp;1 \\ 1 &amp; -1\end{pmatrix} In terms of one qubit unitaries: 1 &amp; -1\end{array}\right) = e^{i\pi}U_\hat{m}(\pi)$$ $$\hat{m} = \frac{1}{\sqrt{2}}(1,0,1)$$ The co...</description>
+    <description> The Hadamard gate is a transformation induced on Qubits carried out by the operator: H \equiv \frac{1}{\sqrt{2}} \begin{pmatrix}1 &amp;1 \\ 1 &amp; -1\end{pmatrix} In terms of one qubit unitaries: H=\frac{1}{\sqrt{2}}\left(\begin{array}{cc}1 &amp; 1\\ 1 &amp; -1\end{array}\right) = e^{i\pi}U_\hat{m...</description>
     <pubDate>Sat, 15 Mar 2025 21:52:30 GMT</pubDate>
   </item><item>
     <title>9 qubits code (Shor&#039;s code)</title>
