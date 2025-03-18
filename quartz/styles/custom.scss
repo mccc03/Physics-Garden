@@ -13,6 +13,23 @@ img {
     margin: auto auto !important;
 }
 
+
+// Center table
+/* Center tables on the page */
+.table-wrapper, table {
+    margin-inline: auto !important;
+}
+
+table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.markdown-preview-view table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 // Callouts
 /* Definition */
 .callout[data-callout="def"] {
@@ -228,3 +245,18 @@ img {
     font-size: 1em; /* Slightly larger title */
 }
 
+
+// Vertical spacing
+
+
+body{
+    --font-smallest: 0.8em;
+    --font-smaller: 1em;
+    --font-small: 1.2em;
+    --font-ui-smaller: 14px;
+    --font-ui-small: 16px;
+    --font-ui-medium: 20px;
+    --font-ui-large: 24px;
+    --line-height-normal:1.6;
+    --line-height-tight:1.3;
+}

@@ -21,7 +21,7 @@ const config: QuartzConfig = {
     ignorePatterns: [
       ".obsidian/",
       "**/*.patch",
-      "**/*.pdf",
+      // "**/*.pdf",
       "**/*.canvas",
       "_res/Clippings/",
       "_res/Excalidraw/",
@@ -128,6 +128,7 @@ const config: QuartzConfig = {
           "\\ketvec": "\\left\\lvert\\smash{#1}\\right\\rangle\\left.\\vphantom{#1}\\right\\rangle",
           "\\bravec": "\\left\\langle\\vphantom{#1}\\right.\\left\\langle\\smash{#1}\\right\\rvert",
           "\\corr": "\\left\\langle {#1} \\right\\rangle",
+          "\\prescript": "{{\\vphantom{#3}}^{\\smash{#1}}_{\\smash{#2}}\\!#3}"
         },
       }),
       Plugin.HardLineBreaks(),
