@@ -6,65 +6,65 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Clifford operations</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-operations</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-operations</guid>
-    <description>Clifford operations generate a subset of all possible operations in Quantum computation, see Universal Quantum Gate set for more information.</description>
-    <pubDate>Sat, 15 Mar 2025 21:52:30 GMT</pubDate>
+    <title>Clifford hierarchy</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</guid>
+    <description>Clifford operations are the normalizers of the n-qubit Pauli group: GPG ^\dagger = \pm Q $$where $G$ is a $n$-qubit Clifford operation and $P,Q$ are Pauli operators.</description>
+    <pubDate>Thu, 27 Mar 2025 17:52:07 GMT</pubDate>
   </item><item>
-    <title>Hadamard Gate</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Hadamard-Gate</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Hadamard-Gate</guid>
-    <description> The Hadamard gate is a transformation induced on Qubits carried out by the operator: H \equiv \frac{1}{\sqrt{2}} \begin{pmatrix}1 &amp;1 \\ 1 &amp; -1\end{pmatrix} In terms of one qubit unitaries: H=\frac{1}{\sqrt{2}}\left(\begin{array}{cc}1 &amp; 1\\ 1 &amp; -1\end{array}\right) = e^{i\pi}U_{\hat{...</description>
-    <pubDate>Sat, 15 Mar 2025 21:52:30 GMT</pubDate>
+    <title>Bravyi-König theorem</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</guid>
+    <description>Suppose a unitary operator U implementable by a constant-depth quantum circuit preserves the codespace \mathcal{C} of a topological stabilizer code on a D-dimensional lattice with D \geq 2, i.e.</description>
+    <pubDate>Thu, 27 Mar 2025 17:22:29 GMT</pubDate>
   </item><item>
-    <title>9 qubits code (Shor&#039;s code)</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/9-qubits-code-(Shor's-code)</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/9-qubits-code-(Shor's-code)</guid>
-    <description>Using encoding on 9 Qubits, it is possible to correct any kind of noise induced on a single qubit.</description>
-    <pubDate>Sat, 15 Mar 2025 21:52:30 GMT</pubDate>
+    <title>Eastin-Knill theorem</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</guid>
+    <description>The Eastin-Knill theorem states that, for any nontrivial local-error-detecting quantum code, the set of logical unitary product operators is not universal.</description>
+    <pubDate>Thu, 27 Mar 2025 17:22:02 GMT</pubDate>
   </item><item>
-    <title>Minimal 1 qubit error code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Minimal-1-qubit-error-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Minimal-1-qubit-error-code</guid>
-    <description>Shor’s code is not the minimal code that is able to correct 1 qubit errors.</description>
-    <pubDate>Sat, 15 Mar 2025 21:52:30 GMT</pubDate>
+    <title>Code blocks</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Code-blocks</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Code-blocks</guid>
+    <description>Consider a code that implements logical qubits in a certain way. We may then want to perform operations on those logical qubits.</description>
+    <pubDate>Thu, 27 Mar 2025 16:13:12 GMT</pubDate>
   </item><item>
-    <title>Decoding in stabilizer codes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Decoding-in-stabilizer-codes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Decoding-in-stabilizer-codes</guid>
-    <description>Following a straightforward comparison with Linear codes in Classical computation, we may conclude that, for stabilizer codes, given an error syndrome in Binary symplectic format \underline{s} corresponding to a detectable error \underline{e} and a Parity check matrix H so that: H\odot\underline{e} ...</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
+    <title>Locality-preserving gates</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</guid>
+    <description>Locality-preserving gates are a very useful class of fault-tolerant gates which are relatively easy to manipulate in practice.</description>
+    <pubDate>Thu, 27 Mar 2025 15:56:37 GMT</pubDate>
   </item><item>
-    <title>Steane code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</guid>
-    <description>The Steane code is obtained by applying the CSS code procedure to the [7,4,3]-Hamming code.</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
+    <title>Distance</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</guid>
+    <description>The distance of a stabilizer code is given by the minimum number of “active” Pauli’s found in the set of logical errors.</description>
+    <pubDate>Thu, 27 Mar 2025 15:39:30 GMT</pubDate>
   </item><item>
-    <title>Surface Code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Surface-Code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Surface-Code</guid>
-    <description>Surface code on a torus The surface code can be defined on a square grid of size L \times L, where Qubits sit on the edges, as shown here for L=4: The code is easier to analyze at first when considering periodic boundary conditions.</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
+    <title>Fault-tolerant logical gates</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</guid>
+    <description>Fault-tolerant logical gates are a class of logical gates that don’t reduce the effective distance to O(1) when the class grows in physical size.</description>
+    <pubDate>Thu, 27 Mar 2025 15:37:34 GMT</pubDate>
   </item><item>
-    <title>Syndromes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Syndromes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Syndromes</guid>
-    <description>Error syndromes in the stabilizer formalism record when an element of the codespace is transformed under a Pauli operator E which anticommutes with some generator S_i of the stabilizer group \mathcal{S}.</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
+    <title>Transversal Gates</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</guid>
+    <description>Transversal gates are the easiest example of locality-preserving gates.</description>
+    <pubDate>Thu, 27 Mar 2025 14:45:55 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>Welcome to my second brain! (very much wip) Table of contents coming soon, use the explorer on the left for now.</description>
+    <pubDate>Thu, 27 Mar 2025 12:49:07 GMT</pubDate>
   </item><item>
     <title>Tanner graphs</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Tanner-graphs</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Tanner-graphs</guid>
     <description>Many methods to design quantum codes and decoders work by representing stabilizer codes using their so-called Tanner graph.</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
-  </item><item>
-    <title>Universal Turing Machine (UTM)</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Classical-Computation/Universal-Turing-Machine-(UTM)</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Classical-Computation/Universal-Turing-Machine-(UTM)</guid>
-    <description> Since every element for a fixed Turing machine is finite, we can associate said Turing machine to a specific natural number through a bijective function.</description>
-    <pubDate>Thu, 13 Mar 2025 17:48:09 GMT</pubDate>
+    <pubDate>Thu, 27 Mar 2025 12:49:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
