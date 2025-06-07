@@ -6,6 +6,18 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Swap gates</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</guid>
+    <description> Useful because quantum computers are many body systems that are governed by a given hamiltonian.</description>
+    <pubDate>Fri, 16 May 2025 19:48:52 GMT</pubDate>
+  </item><item>
+    <title>Steane code</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</guid>
+    <description>The Steane code is obtained by applying the CSS code procedure to the [7,4,3]-Hamming code.</description>
+    <pubDate>Fri, 16 May 2025 19:48:52 GMT</pubDate>
+  </item><item>
     <title>Concurrence</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Entanglement/Concurrence</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Entanglement/Concurrence</guid>
@@ -16,12 +28,6 @@
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</guid>
     <description>Clifford operations are the normalizers of the n-qubit Pauli group: GPG ^\dagger = \pm Q where G is a n-qubit Clifford operation and P,Q are Pauli operators.</description>
-    <pubDate>Mon, 28 Apr 2025 11:58:19 GMT</pubDate>
-  </item><item>
-    <title>Steane code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</guid>
-    <description>The Steane code is obtained by applying the CSS code procedure to the [7,4,3]-Hamming code.</description>
     <pubDate>Mon, 28 Apr 2025 11:58:19 GMT</pubDate>
   </item><item>
     <title>Bravyi-König theorem</title>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</guid>
     <description>Fault-tolerant logical gates are a class of logical gates that don’t reduce the effective distance to O(1) when the class grows in physical size.</description>
     <pubDate>Thu, 27 Mar 2025 15:37:34 GMT</pubDate>
-  </item><item>
-    <title>Transversal Gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</guid>
-    <description>Transversal gates are the easiest example of locality-preserving gates.</description>
-    <pubDate>Thu, 27 Mar 2025 14:45:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
