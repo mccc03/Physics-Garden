@@ -6,6 +6,18 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Shannon entropy</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Shannon-entropy</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Shannon-entropy</guid>
+    <description>Given a probability distribution \{\lambda\}, we can define the Shannon entropy H(\lambda_k) = -\sum _i \lambda _i \logbit \lambda _i Decision tree splits In the context of decision trees, given the node t with classes j, H(t) = -\sum _j p(j|t) \logbit p(j|t) we can also define the information gain ...</description>
+    <pubDate>Thu, 10 Jul 2025 09:17:57 GMT</pubDate>
+  </item><item>
+    <title>Period finding</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Algorithms/Period-finding</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Algorithms/Period-finding</guid>
+    <description>We can use the Quantum Fourier Transform (QFT) to find the period of a function in a polynomial number of steps: f:\{0,1\}^n\mapsto \{0,1\}^m f\left(\mod{2^n}{x+r}\right) = f(x) \qquad \forall \vec{x} where {r}, 0&lt; r&lt; N-1, is the smallest period, which we want to find, and we are working in th...</description>
+    <pubDate>Thu, 10 Jul 2025 09:17:57 GMT</pubDate>
+  </item><item>
     <title>Swap gates</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</guid>
@@ -53,18 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</guid>
     <description>Locality-preserving gates are a very useful class of fault-tolerant gates which are relatively easy to manipulate in practice.</description>
     <pubDate>Thu, 27 Mar 2025 15:56:37 GMT</pubDate>
-  </item><item>
-    <title>Distance</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</guid>
-    <description>The distance of a stabilizer code is given by the minimum number of “active” Pauli’s found in the set of logical errors.</description>
-    <pubDate>Thu, 27 Mar 2025 15:39:30 GMT</pubDate>
-  </item><item>
-    <title>Fault-tolerant logical gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</guid>
-    <description>Fault-tolerant logical gates are a class of logical gates that don’t reduce the effective distance to O(1) when the class grows in physical size.</description>
-    <pubDate>Thu, 27 Mar 2025 15:37:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
