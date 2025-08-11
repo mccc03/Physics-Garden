@@ -10,7 +10,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Physics Garden",
-    pageTitleSuffix: ":3",
+    pageTitleSuffix: " - Physics Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
