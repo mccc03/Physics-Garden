@@ -6,65 +6,65 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Shannon entropy</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Shannon-entropy</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Shannon-entropy</guid>
-    <description>Given a probability distribution \{\lambda\}, we can define the Shannon entropy H(\lambda_k) = -\sum _i \lambda _i \logbit \lambda _i Decision tree splits In the context of decision trees, given the node t with classes j, H(t) = -\sum _j p(j|t) \logbit p(j|t) we can also define the information gain ...</description>
-    <pubDate>Thu, 10 Jul 2025 09:17:57 GMT</pubDate>
+    <title>Unitarity of CFT</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Unitarity-of-CFT</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Unitarity-of-CFT</guid>
+    <description>In CFT, we are working on infinite dimensional representations of the conformal group, as this group is not compact and therefore can’t admit finite unitary representations.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Period finding</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Algorithms/Period-finding</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Algorithms/Period-finding</guid>
-    <description>We can use the Quantum Fourier Transform (QFT) to find the period of a function in a polynomial number of steps: f:\{0,1\}^n\mapsto \{0,1\}^m f\left(\mod{2^n}{x+r}\right) = f(x) \qquad \forall \vec{x} where {r}, 0&lt; r&lt; N-1, is the smallest period, which we want to find, and we are working in th...</description>
-    <pubDate>Thu, 10 Jul 2025 09:17:57 GMT</pubDate>
+    <title>Conformal blocks</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Conformal-blocks</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Conformal-blocks</guid>
+    <description>Consider 4PF of real scalar field \phi with \Delta = \Delta _\phi, we know that they are not completely fixed: \corr{\phi (x_1)\phi (x_2)\phi (x_3)\phi (x_4)} = \frac{1}{X_{12}^{\Delta_\phi}X_{34}^{\Delta_\phi}}g(u,v) where: u\coloneqq \frac{X_{12} ^2X_{34} ^2}{X_{13} ^2X_{24} ^2} v\coloneqq \frac{X...</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Swap gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Swap-gates</guid>
-    <description> Useful because quantum computers are many body systems that are governed by a given hamiltonian.</description>
-    <pubDate>Fri, 16 May 2025 19:48:52 GMT</pubDate>
+    <title>Conserved currents in GFT&#039;s</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Conserved-currents-in-GFT's</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Conserved-currents-in-GFT's</guid>
+    <description>Take \ket{O_{\Delta, r}} a primary state with positive norm (if norm is 0 it corresponds to the identity) Take first descendant P_\mu \ket{O_{\Delta, r}}, then \norm{\xi ^\mu P_\mu \ket{O_{\Delta, r}}}^2\geq 0 translates to \Delta \geq \Delta _{un} (d,r) where \Delta _{un} (d,r) is determined by uni...</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Steane code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</guid>
-    <description>The Steane code is obtained by applying the CSS code procedure to the [7,4,3]-Hamming code.</description>
-    <pubDate>Fri, 16 May 2025 19:48:52 GMT</pubDate>
+    <title>Crossing symmetry</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Crossing-symmetry</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Crossing-symmetry</guid>
+    <description>The conformal block formalism leads to a graph representation (contributions to a 4PF are given by sum over irreps): \corr{\phi (x_1)\phi (x_2)\phi (x_3)\phi (x_4)} = \frac{1}{X_{12}^{2\Delta _\phi}}\frac{1}{X_{34}^{2\Delta _\phi}}\sum _{\Delta,l} \lambda ^2_{\Delta ,l} g _{\Delta ,l}(u,v) u\coloneq...</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Concurrence</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Entanglement/Concurrence</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Entanglement/Concurrence</guid>
-    <description>Defined for Qubits.</description>
-    <pubDate>Mon, 28 Apr 2025 11:58:19 GMT</pubDate>
+    <title>Generalized Free Theories</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Generalized-Free-Theories</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Generalized-Free-Theories</guid>
+    <description>Free theories Consider the simplest free CFT: \mathcal{L} = -\frac{1}{2}\phi \square\phi where \phi is a primary operator whose dimension is \Delta _\phi = \frac{d-2}{2}, which implies that the theory has a unitary representation in Minkowskian signature.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Clifford hierarchy</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Clifford-hierarchy</guid>
-    <description>Clifford operations are the normalizers of the n-qubit Pauli group: GPG ^\dagger = \pm Q where G is a n-qubit Clifford operation and P,Q are Pauli operators.</description>
-    <pubDate>Mon, 28 Apr 2025 11:58:19 GMT</pubDate>
+    <title>Non locality of GFT&#039;s</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Non-locality-of-GFT's</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Non-locality-of-GFT's</guid>
+    <description>Example Defining operators in Fourier space and going back, we define the Lagrangian: \mathcal{L} = -\frac{1}{2} \phi \square^{1-p}\phi\quad p&gt;0 By dimensional analysis, we demand: [\mathcal{L}] = d so: 2\Delta _\phi + 2(1-p) = d \Delta _\phi = \frac{d-2}{2} +p Going to Fourier and back, we see t...</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Bravyi-König theorem</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</guid>
-    <description>Suppose a unitary operator U implementable by a constant-depth quantum circuit preserves the codespace \mathcal{C} of a topological stabilizer code on a D-dimensional lattice with D \geq 2, i.e.</description>
-    <pubDate>Thu, 27 Mar 2025 17:22:29 GMT</pubDate>
+    <title>Operator Product Expansion</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Operator-Product-Expansion</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Operator-Product-Expansion</guid>
+    <description> The Operator Product Expansion (OPE) is a technique used in CFT inside a correlator to expand the product of two operators into a convergent sum of local operators applied to primaries.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Eastin-Knill theorem</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</guid>
-    <description>The Eastin-Knill theorem states that, for any nontrivial local-error-detecting quantum code, the set of logical unitary product operators is not universal.</description>
-    <pubDate>Thu, 27 Mar 2025 17:22:02 GMT</pubDate>
+    <title>Osterwalder-Schrader reconstruction theorem</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Osterwalder-Schrader-reconstruction-theorem</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Osterwalder-Schrader-reconstruction-theorem</guid>
+    <description>If we have a Minkowski theory which is an analytical continuation of a euclidian one: \textrm{Euclidian th.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Code blocks</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Code-blocks</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Code-blocks</guid>
-    <description>Consider a code that implements logical qubits in a certain way. We may then want to perform operations on those logical qubits.</description>
-    <pubDate>Thu, 27 Mar 2025 16:13:12 GMT</pubDate>
+    <title>Quantization in conformal symmetry</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Quantization-in-conformal-symmetry</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Quantization-in-conformal-symmetry</guid>
+    <description> Usually, when we quantize a theory, we select a direction of time and identify manifolds which are always orthogonal to the time direction (so they are space-like, admitting delta t =0) where we perform the quantization.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item><item>
-    <title>Locality-preserving gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</guid>
-    <description>Locality-preserving gates are a very useful class of fault-tolerant gates which are relatively easy to manipulate in practice.</description>
-    <pubDate>Thu, 27 Mar 2025 15:56:37 GMT</pubDate>
+    <title>Reflection positivity</title>
+    <link>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Reflection-positivity</link>
+    <guid>https://quartz.jzhao.xyz/QFT-in-Curved-Space-Time/Reflection-positivity</guid>
+    <description>Reflection positivity means that a theory, whose observables are O_i(x_i), given a reflection transformation \Theta, satisfy: \corr{O_1(x_1)...O_n(x_n)\Theta(O_1(x_1))...\Theta(O_n(x_n))}&gt;0 The operator \Theta can be whatever, an example can be a reflection along an axis.</description>
+    <pubDate>Thu, 18 Sep 2025 07:11:33 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -12,6 +12,7 @@
 \renewcommand{\mod}[2]{\mathrm{mod}_{{#1}}\left[{#2}\right]}
 \newcommand{\comm}[2]{\left[{#1},{#2}\right]}
 \newcommand{\anticomm}[2]{\left\{{#1},{#2}\right\}}
+\newcommand{\anticomm}[2]{\left\{{#1},{#2}\right\}}
 \newcommand{\ketvec}[1]{\left\lvert\smash{#1}\right\rangle\left.\vphantom{#1}\right\rangle}
 \newcommand{\bravec}[1]{\left\langle\vphantom{#1}\right.\left\langle\smash{#1}\right\rvert}
 \newcommand{\corr}[1]{\left\langle {#1} \right\rangle}
@@ -21,3 +22,16 @@
 
 % Tensors
 \newcommand{\tensor}[2]{\mathop{#1}\limits#2}
+
+% Var is cool
+%% phi
+
+\let\temp\phi
+\let\phi\varphi
+\let\varphi\temp
+
+%% epsilon
+
+\let\temp\epsilon
+\let\epsilon\varepsilon
+\let\varepsilon\temp
