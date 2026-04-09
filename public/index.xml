@@ -6,65 +6,65 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Steane code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</guid>
-    <description>The Steane code is obtained by applying the CSS code procedure to the [7,4,3]-Hamming code.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Extension of scalars</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</guid>
+    <description>Similarly to what we did for tensor product modules, we can somehow extend, given the rings R,S, an R-module into an S-module.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Bravyi-König theorem</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</guid>
-    <description>Suppose a unitary operator U implementable by a constant-depth quantum circuit preserves the codespace \mathcal{C} of a topological stabilizer code on a D-dimensional lattice with D \geq 2, i.e.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Finitary direct sums of modules</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Finitary-direct-sums-of-modules</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Finitary-direct-sums-of-modules</guid>
+    <description>Let R be a ring and let M_1,...,M_n, n\in\mathbb{N} be R-modules.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Eastin-Knill theorem</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Eastin-Knill-theorem</guid>
-    <description>The Eastin-Knill theorem states that, for any nontrivial local-error-detecting quantum code, the set of logical unitary product operators is not universal.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Free modules</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-modules</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-modules</guid>
+    <description>An R-module M is free if \exists a set S= \left\{e_i\right\}_i, S\subseteq M such that S is a generating set of M and its elements are linearly independent in the sense of ring action: \sum _i r_i \cdot e_i = 0 \Leftrightarrow r_i =0\,\, \forall i Notation In order to specify that a generating set S...</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Transversal Gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Transversal-Gates</guid>
-    <description>Transversal gates are the easiest example of locality-preserving gates.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Free resolutions</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</guid>
+    <description>Consider an R-module M and.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Distance</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Distance</guid>
-    <description>The distance of a stabilizer code is given by the minimum number of “active” Pauli’s found in the set of logical errors.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Generating set</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Generating-set</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Generating-set</guid>
+    <description>Let M be an R-module and S\subseteq M a subset of M.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Locality-preserving gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</guid>
-    <description>Locality-preserving gates are a very useful class of fault-tolerant gates which are relatively easy to manipulate in practice.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Homologies</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homologies</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homologies</guid>
+    <description>Let C_\bullet be a chain complex of R-modules; for n\in\mathbb{N}, define the n-th homology module as the quotient module: H_n(C_\bullet) \coloneqq \mathrm{ker}(\partial _n)/\mathrm{im}(\partial_{n+1}) If R=\mathbb{Z}, these are called homology groups.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Fault-tolerant logical gates</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</guid>
-    <description>Fault-tolerant logical gates are a class of logical gates that don’t reduce the effective distance to O(1) when the class grows in physical size.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Matrices</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</guid>
+    <description>Homomorphisms between free modules can be encoded using matrices, defined as follows. Let M,N be free and finitely-generated R-modules.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Tanner graphs</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Tanner-graphs</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Tanner-graphs</guid>
-    <description>Many methods to design quantum codes and decoders work by representing stabilizer codes using their so-called Tanner graph.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Module homomorphisms</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Module-homomorphisms</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Module-homomorphisms</guid>
+    <description> Let R be a ring and let (M,\mu), (N,\nu) be R-modules.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Syndromes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Syndromes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Syndromes</guid>
-    <description>Error syndromes in the stabilizer formalism record when an element of the codespace is transformed under a Pauli operator E which anticommutes with some generator S_i of the stabilizer group \mathcal{S}.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Quotient modules</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-modules</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-modules</guid>
+    <description> Let (M,\mu) be an R-module and N\leq M be a submodule.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item><item>
-    <title>Stabilizer code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</guid>
-    <description>The main idea behind stabilizer codes consists in shifting the focus from the vector space (codewords) to the operator space.</description>
-    <pubDate>Sun, 18 Jan 2026 16:41:14 GMT</pubDate>
+    <title>Structure Theorem for Finitely Generated Modules over PID</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</guid>
+    <description>Let R be a PID and let M be a nonzero finitely-generated R-module.</description>
+    <pubDate>Thu, 09 Apr 2026 14:55:28 GMT</pubDate>
   </item>
     </channel>
   </rss>
