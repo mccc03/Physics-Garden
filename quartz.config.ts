@@ -31,7 +31,7 @@ try {
 // Replace this with the absolute path to your CSS file in your vault
 const vaultCssPath = "/home/sofi/Documents/PhysicsVault/.obsidian/snippets/custom_callouts.css"
 // This is where Quartz will save the copied file
-const quartzCssDest = "./quartz/styles/obsidian_callouts.scss"
+const quartzCssDest = "./quartz/styles/_obsidian_callouts.scss"
 
 try {
   const cssContent = fs.readFileSync(vaultCssPath, "utf8")
