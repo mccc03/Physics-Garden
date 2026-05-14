@@ -9,144 +9,148 @@ import fs from "fs" // Added fs import for reading files
  */
 
 // --- Dynamic Macro Loading Script ---
-// Adjust this path if your preamble.tex is located somewhere else
+// Adjust this path if your preamble.sty is located somewhere else
 const preamblePath = "/home/sofi/Documents/PhysicsVault/preamble.sty"
 const customMacros: Record<string, string> = {}
 
 try {
-    const preamble = fs.readFileSync(preamblePath, "utf8")
-    // Updated regex to account for optional argument counts, e.g., \newcommand{\ip}[2]{...}
-    const regex = /\\newcommand(?:\{|\s+)\\([a-zA-Z0-9]+)\}(?:\[\d+\])?\{(.*)\}/g
-    let match
+  const preamble = fs.readFileSync(preamblePath, "utf8")
+  // Updated regex to account for optional argument counts, e.g., \newcommand{\ip}[2]{...}
+  const regex = /\\newcommand(?:\{|\s+)\\([a-zA-Z0-9]+)\}(?:\[\d+\])?\{(.*)\}/g
+  let match
 
-    while ((match = regex.exec(preamble)) !== null) {
-        customMacros[`\\${match[1]}`] = match[2]
-    }
-    console.log(`Successfully loaded ${Object.keys(customMacros).length} macros from preamble.sty`)
+  while ((match = regex.exec(preamble)) !== null) {
+    customMacros[`\\${match[1]}`] = match[2]
+  }
+  console.log(`Successfully loaded ${Object.keys(customMacros).length} macros from preamble.sty`)
 } catch (e) {
-    console.warn("\n Could not load preamble.sty. Are you sure the path is correct?")
+  console.warn("Could not load preamble.sty. Are you sure the path is correct?")
 }
-// ------------------------------------
 
-// Dynamic CSS Loading Script ---
+// Dynamic CSS Loading Script (ADD THIS) ---
 // Replace this with the absolute path to your CSS file in your vault
 const vaultCssPath = "/home/sofi/Documents/PhysicsVault/.obsidian/snippets/custom_callouts.css"
 // This is where Quartz will save the copied file
-const quartzCssDest = "./quartz/styles/_obsidian_callouts.scss"
+const quartzCssDest = "./quartz/styles/obsidian_callouts.scss"
 
 try {
-    const cssContent = fs.readFileSync(vaultCssPath, "utf8")
-    fs.writeFileSync(quartzCssDest, cssContent)
-    console.log("Successfully synced custom_callouts.css from Obsidian vault")
+  const cssContent = fs.readFileSync(vaultCssPath, "utf8")
+  fs.writeFileSync(quartzCssDest, cssContent)
+  console.log("Successfully synced custom_callouts.css from Obsidian vault")
 } catch (e) {
-    console.warn("Could not load custom_callouts.css. Are you sure the path is correct?")
+  // FAილSAFE: If the path is wrong, create an empty file so the site doesn't crash
+  fs.writeFileSync(quartzCssDest, "/* Could not load custom_callouts.css from vault. Check path in quartz.config.ts */")
+  console.warn("\n⚠️ WARNING: Could not find custom_callouts.css. Check the vaultCssPath in quartz.config.ts!\n")
 }
 
-//
+
+// ------------------------------------
+
+// comment
 const config: QuartzConfig = {
-    configuration: {
-        pageTitle: "Physics Garden",
-        pageTitleSuffix: " - Physics Garden",
-        enableSPA: true,
-        enablePopovers: true,
-        analytics: {
-            provider: "plausible",
+  configuration: {
+    pageTitle: "Physics Garden",
+    pageTitleSuffix: " - Physics Garden",
+    enableSPA: true,
+    enablePopovers: true,
+    analytics: {
+      provider: "plausible",
+    },
+    locale: "en-US",
+    baseUrl: "quartz.jzhao.xyz",
+    ignorePatterns: [
+      ".obsidian/",
+      "**/*.patch",
+      // "**/*.pdf",
+      "**/*.canvas",
+      "_res/Clippings/",
+      "_res/Excalidraw/",
+      "_res/References/",
+      "_res/Task trackers/",
+      "_res/Templates/",
+      "Journal/",
+      "Research Notes/",
+    ],
+    defaultDateType: "created",
+      generateSocialImages: true,
+      theme: {
+        fontOrigin: "googleFonts",
+        cdnCaching: true,
+        typography: {
+          header: "Schibsted Grotesk",
+          body: "Source Sans Pro",
+          code: "IBM Plex Mono",
         },
-        locale: "en-US",
-        baseUrl: "quartz.jzhao.xyz",
-        ignorePatterns: [
-            ".obsidian/",
-            "**/*.patch",
-            // "**/*.pdf",
-            "**/*.canvas",
-            "_res/Clippings/",
-            "_res/Excalidraw/",
-            "_res/References/",
-            "_res/Task trackers/",
-            "_res/Templates/",
-            "Journal/",
-            "Research Notes/",
-        ],
-        defaultDateType: "created",
-            generateSocialImages: true,
-            theme: {
-                fontOrigin: "googleFonts",
-                cdnCaching: true,
-                typography: {
-                    header: "Schibsted Grotesk",
-                    body: "Source Sans Pro",
-                    code: "IBM Plex Mono",
-                },
-                colors: {
-                    lightMode: {
-                        light: "#282A36",
-                        lightgray: "#44475A",
-                        gray: "#646464",
-                        darkgray: "#F8F8F2",
-                        dark: "#FFFFFF",
-                        secondary: "#bd93f9",
-                        tertiary: "#6272a4",
-                        highlight: "rgba(143, 159, 169, 0.15)",
-                        textHighlight: "#b3aa0288",
-                    },
-                    darkMode: {
-                        light: "#282A36",
-                        lightgray: "#44475A",
-                        gray: "#646464",
-                        darkgray: "#F8F8F2",
-                        dark: "#FFFFFF",
-                        secondary: "#bd93f9",
-                        tertiary: "#6272a4",
-                        highlight: "rgba(143, 159, 169, 0.15)",
-                        textHighlight: "#b3aa0288",
-                    },
-                },
-            },
-    },
-    plugins: {
-        transformers: [
-            Plugin.FrontMatter(),
-            Plugin.CreatedModifiedDate({
-                priority: ["frontmatter", "filesystem"],
-            }),
-            Plugin.SyntaxHighlighting({
-                theme: {
-                    light: "github-light",
-                    dark: "github-dark",
-                },
-                keepBackground: false,
-            }),
-            Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-            Plugin.GitHubFlavoredMarkdown(),
-            Plugin.TableOfContents(),
-            Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-            Plugin.Description(),
-            //Plugin.MathBlockFixer(),
+        colors: {
+          lightMode: {
+            light: "#282A36",
+            lightgray: "#44475A",
+            gray: "#646464",
+            darkgray: "#F8F8F2",
+            dark: "#FFFFFF",
+            secondary: "#bd93f9",
+            tertiary: "#6272a4",
+            highlight: "rgba(143, 159, 169, 0.15)",
+            textHighlight: "#b3aa0288",
+          },
+          darkMode: {
+            light: "#282A36",
+            lightgray: "#44475A",
+            gray: "#646464",
+            darkgray: "#F8F8F2",
+            dark: "#FFFFFF",
+            secondary: "#bd93f9",
+            tertiary: "#6272a4",
+            highlight: "rgba(143, 159, 169, 0.15)",
+            textHighlight: "#b3aa0288",
+          },
+        },
+      },
+  },
+  plugins: {
+    transformers: [
+      Plugin.FrontMatter(),
+      Plugin.CreatedModifiedDate({
+        priority: ["frontmatter", "filesystem"],
+      }),
+      Plugin.SyntaxHighlighting({
+        theme: {
+          light: "github-light",
+          dark: "github-dark",
+        },
+        keepBackground: false,
+      }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.GitHubFlavoredMarkdown(),
+      Plugin.TableOfContents(),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.Description(),
+      //Plugin.MathBlockFixer(),
 
-            // Updated to use the dynamically generated customMacros object
-            Plugin.Latex({
-                renderEngine: "katex",
-                customMacros: customMacros,
-            }),
+      // Updated to use the dynamically generated customMacros object
+      Plugin.Latex({
+        renderEngine: "katex",
+        customMacros: customMacros,
+      }),
 
-            Plugin.HardLineBreaks(),
-        ],
-        filters: [Plugin.ExplicitPublish()],
-        emitters: [
-            Plugin.AliasRedirects(),
-            Plugin.ComponentResources(),
-            Plugin.ContentPage(),
-            Plugin.FolderPage(),
-            Plugin.TagPage(),
-            Plugin.ContentIndex({
-                enableSiteMap: true,
-                enableRSS: true,
-            }),
-            Plugin.Assets(),
-            Plugin.Static(),
-            Plugin.NotFoundPage(),
-        ],
-    },
+      Plugin.HardLineBreaks(),
+    ],
+    filters: [Plugin.ExplicitPublish()],
+    emitters: [
+      Plugin.AliasRedirects(),
+      Plugin.ComponentResources(),
+      Plugin.ContentPage(),
+      Plugin.FolderPage(),
+      Plugin.TagPage(),
+      Plugin.ContentIndex({
+        enableSiteMap: true,
+        enableRSS: true,
+      }),
+      Plugin.Assets(),
+      Plugin.Static(),
+      Plugin.NotFoundPage(),
+    ],
+  },
 }
 
 export default config
