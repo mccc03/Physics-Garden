@@ -72,7 +72,6 @@ body{
 // Light theme color inversion
 html[saved-theme="light"] {
     img[src*=".svg"] {
-        /* Adding contrast(150%) forces mid-grays to become darker/lighter */
-        filter: invert(100%) hue-rotate(180deg) contrast(150%);
+        filter: invert(100%) hue-rotate(180deg);
     }
 }
