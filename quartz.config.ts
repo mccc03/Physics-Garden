@@ -28,7 +28,21 @@ try {
 }
 // ------------------------------------
 
-// comment
+// Dynamic CSS Loading Script ---
+// Replace this with the absolute path to your CSS file in your vault
+const vaultCssPath = "/home/sofi/Documents/PhysicsVault/.obsidian/snippets/custom_callouts.css"
+// This is where Quartz will save the copied file
+const quartzCssDest = "./quartz/styles/_obsidian_callouts.scss"
+
+try {
+    const cssContent = fs.readFileSync(vaultCssPath, "utf8")
+    fs.writeFileSync(quartzCssDest, cssContent)
+    console.log("Successfully synced custom_callouts.css from Obsidian vault")
+} catch (e) {
+    console.warn("Could not load custom_callouts.css. Are you sure the path is correct?")
+}
+
+//
 const config: QuartzConfig = {
     configuration: {
         pageTitle: "Physics Garden",
