@@ -72,8 +72,7 @@ body{
 // Light theme color inversion
 html[data-theme="light"] {
     img[src$=".svg"] {
-        /* 1. Inverts black to white / white to black */
-        /* 2. Spins the colors back to their original hue */
-        filter: invert(100%) hue-rotate(180deg);
+        /* Adding contrast(150%) forces mid-grays to become darker/lighter */
+        filter: invert(100%) hue-rotate(180deg) contrast(150%);
     }
 }
