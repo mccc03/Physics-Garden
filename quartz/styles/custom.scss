@@ -34,6 +34,7 @@ table {
 }
 
 
+
 // Vertical spacing
 
 
@@ -66,4 +67,12 @@ body{
 /* Optional: If the title itself feels too cramped when collapsed */
 .callout.is-collapsed .callout-title {
     padding-bottom: 2.0rem;
+}
+
+// Light theme color inversion
+html[data-theme="light"] {
+    img[src$=".svg"] {
+        /* Turns the entire SVG pure black without messing with the color wheel */
+        filter: brightness(0);
+    }
 }
