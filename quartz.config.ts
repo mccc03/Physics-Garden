@@ -83,15 +83,15 @@ const config: QuartzConfig = {
         },
         colors: {
           lightMode: {
-            light: "#282A36",
-            lightgray: "#44475A",
-            gray: "#646464",
-            darkgray: "#F8F8F2",
-            dark: "#FFFFFF",
-            secondary: "#bd93f9",
-            tertiary: "#6272a4",
-            highlight: "rgba(143, 159, 169, 0.15)",
-            textHighlight: "#b3aa0288",
+            light: "#F8F8F2",         // The Dracula text color makes a great soft-white background
+            lightgray: "#E2E2DF",     // Soft gray for borders and inline code backgrounds
+            gray: "#999999",          // Medium gray for graph links and heavier borders
+            darkgray: "#44475A",      // Dark gray/blue (your dark mode's lightgray) for highly readable body text
+            dark: "#282A36",          // Your dark mode's background color becomes the bold header text
+            secondary: "#8B5CF6",     // A slightly darker, more vivid version of your purple for contrast
+            tertiary: "#6272A4",      // Same tertiary blue/purple for hover states
+            highlight: "rgba(189, 147, 249, 0.15)", // A soft purple highlight for active links
+            textHighlight: "rgba(241, 250, 140, 0.5)", // Dracula yellow for text highlighting
           },
           darkMode: {
             light: "#282A36",
