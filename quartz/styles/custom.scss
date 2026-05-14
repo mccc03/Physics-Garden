@@ -72,7 +72,8 @@ body{
 // Light theme color inversion
 html[data-theme="light"] {
     img[src$=".svg"] {
-        /* Turns the entire SVG pure black without messing with the color wheel */
-        filter: brightness(0);
+        /* 1. Inverts black to white / white to black */
+        /* 2. Spins the colors back to their original hue */
+        filter: invert(100%) hue-rotate(180deg);
     }
 }
