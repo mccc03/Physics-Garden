@@ -57,3 +57,13 @@ body{
 .callout-content > .callout:last-child {
     margin-bottom: 0.5rem;
 }
+
+// Fix spacing specifically for collapsed callouts
+.callout.is-collapsed {
+    padding-bottom: 12px; /* Matches the 12px padding you used in your custom Obsidian CSS */
+}
+
+/* Optional: If the title itself feels too cramped when collapsed */
+.callout.is-collapsed .callout-title {
+    padding-bottom: 0.2rem;
+}
