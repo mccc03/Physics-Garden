@@ -10,7 +10,7 @@ import fs from "fs" // Added fs import for reading files
 
 // --- Dynamic Macro Loading Script ---
 // Adjust this path if your preamble.tex is located somewhere else
-const preamblePath = "./public/preamble.sty"
+const preamblePath = "/home/sofi/Documents/PhysicsVault/preamble.sty"
 const customMacros: Record<string, string> = {}
 
 try {
@@ -22,9 +22,9 @@ try {
     while ((match = regex.exec(preamble)) !== null) {
         customMacros[`\\${match[1]}`] = match[2]
     }
-    console.log(`Successfully loaded ${Object.keys(customMacros).length} macros from preamble.tex`)
+    console.log(`Successfully loaded ${Object.keys(customMacros).length} macros from preamble.sty`)
 } catch (e) {
-    console.warn("Could not load preamble.tex. Are you sure the path is correct?")
+    console.warn("\n Could not load preamble.sty. Are you sure the path is correct?")
 }
 // ------------------------------------
 
