@@ -1,0 +1,126 @@
+\documentclass[tikz,border=5mm, transparent]{standalone}
+\usepackage{amssymb}
+\usetikzlibrary{
+	backgrounds,
+	fit,
+	decorations.pathreplacing,
+	decorations.markings,
+	decorations.shapes,
+	arrows.meta,
+	calc,
+	patterns,
+	fadings,
+	3d,
+	shapes.symbols}
+
+\definecolor{MyPurple}{RGB}{128, 92, 156}
+\definecolor{MyBlue}{HTML}{3D507D} % Main color
+\definecolor{MyLightBlue}{HTML}{5c6d96} % Secondary color
+\definecolor{MyGold}{HTML}{C0AB6A} % Tertiary color
+\definecolor{MyGreen}{HTML}{39806f}
+
+% Define a custom text color for contrast
+\definecolor{MyText}{HTML}{D4D4D4}
+
+\begin{document}
+	
+	% \tikzstyle{NAME}=[PROPERTY LIST]
+	
+	% Node styles
+	% \tikzstyle{vertex}=[fill=black, draw=black, shape=circle]
+	\tikzstyle{vertex}=[shape=circle, fill=MyText, minimum size=6pt, inner sep=0pt, outer sep=0pt]
+	
+	% Edge styles
+	\tikzstyle{open boundary}=[-, dashed]
+	\tikzstyle{fill helper}=[-, draw=none, tikzit draw=green]
+	\tikzstyle{edge}=[->]
+	
+	\tikzstyle{vertex}=[fill=MyText,draw=MyText,circle,minimum size=4pt,inner sep=0]
+	\tikzstyle{compedge}=[
+	postaction={decorate},
+	line width=0.7pt,
+	draw]
+	\tikzstyle{->-}=[compedge,
+	decoration={
+		markings,
+		mark=at position 0.55 with {\arrow{Triangle[scale=1]}}}]
+	\tikzset{
+		-g>-/.style 2 args={
+			compedge,
+			draw=#1,
+			decoration={
+				markings,
+				mark=at position 0.55 with {\arrow{Triangle[scale=1.5, fill=#2]}}
+			}
+		},
+		-g>-/.default={black}{white} % Default to black line, white fill
+	}
+	\tikzset{
+		-g>>-/.style 2 args={
+			compedge,
+			draw=#1,
+			decoration={
+				markings,
+				mark=at position 0.50 with {\arrow{Triangle[scale=1.5, fill=#2]}},
+				mark=at position 0.60 with {\arrow{Triangle[scale=1.5, fill=#2]}}
+			}
+		},
+		-g>>-/.default={black}{white},
+	}
+	\tikzset{
+		-g>>>-/.style 2 args={
+			compedge,
+			draw=#1,
+			decoration={
+				markings,
+				mark=at position 0.5 with {\arrow{Triangle[scale=1.5, fill=#2]}},
+				mark=at position 0.55 with {\arrow{Triangle[scale=1.5, fill=#2]}},
+				mark=at position 0.6 with {\arrow{Triangle[scale=1.5, fill=#2]}}
+			}
+		},
+		-g>>>-/.default={black}{white}
+	}
+	
+	\tikzstyle{walk}=[
+	decoration={
+		markings,
+		mark=between positions 0 and 1 step 3pt with {
+			\node[fill=MyText,
+			signal from=west,
+			signal to=east,
+			signal,
+			transform shape,
+			minimum width=1pt,
+			minimum height=3pt,
+			inner sep=0]{};}},
+	decorate]
+	
+	\begin{tikzpicture}
+		\newcommand*{\sqside}{4}
+		
+		\node[vertex, label={[text=MyText]-135:$e^0_1$}] at (0,0) (v1) {};
+		\node[vertex, label={[text=MyText]135:$e^0_1$}] at (0,\sqside) (v2) {};
+		\node[vertex, label={[text=MyText]45:$e^0_1$}] at (\sqside,\sqside) (v3) {};
+		\node[vertex, label={[text=MyText]-45:$e^0_1$}] at (\sqside,0) (v4) {};
+		\node[vertex, label={[text=MyText]180:$e^0_2$}] at (0,\sqside/2) (v5) {};
+		\node[vertex, label={[text=MyText]0:$e^0_2$}] at (\sqside,\sqside/2) (v6) {};
+		\node[vertex, label={[text=MyText]90:$e^0_3$}] at (\sqside/2,\sqside/2) (v7) {};
+		\draw[-g>-={MyText}{MyGold}] (v1.center) -- node[midway, left] {\color{MyText}$e^1_1$} (v5.center);
+		\draw[-g>>-={MyText}{MyGold}] (v5.center) -- node[midway, left] {\color{MyText}$e^1_2$} (v2.center);
+		\draw[-g>>>-={MyText}{MyGold}] (v2.center) -- node[midway, above] {\color{MyText}$e^1_3$} (v3.center);
+		\draw[-g>-={MyText}{MyGold}] (v4.center) -- node[midway, right] {\color{MyText}$e^1_1$} (v6.center);
+		\draw[-g>>-={MyText}{MyGold}] (v6.center) -- node[midway, right] {\color{MyText}$e^1_2$} (v3.center);
+		\draw[-g>>>-={MyText}{MyGold}] (v1.center) -- node[midway, below] {\color{MyText}$e^1_3$} (v4.center);
+		\draw[walk] (v5.center) -- node[midway, above] {\color{MyText}$e^1_4$} (v7.center);
+		\draw[walk] (v7.center) -- node[midway, above] {\color{MyText}$e^1_5$} (v6.center);
+		\node at (\sqside/2,0.8) (f1) {\color{MyText}$e^2_1$};
+		\node[scale=3] at (f1.center) {\color{MyText}$\circlearrowright$};
+		\node at (\sqside/2,\sqside-0.8) (f2) {\color{MyText}$e^2_2$};
+		\node[scale=3] at (f2.center) {\color{MyText}$\circlearrowright$};
+		
+		\begin{pgfonlayer}{background}
+			\path[fill=MyPurple, fill opacity=0.8] (v1.center) -- (v5.center) -- (v6.center) -- (v4.center) -- cycle;
+			\path[fill=MyLightBlue, fill opacity=0.8] (v2.center) -- (v3.center) -- (v6.center) -- (v5.center) -- cycle;
+		\end{pgfonlayer}
+	\end{tikzpicture}
+\end{document}
