@@ -35,6 +35,8 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
     "@clack/prompts": "^0.10.0",
     "@floating-ui/dom": "^1.6.13",
     "@myriaddreamin/rehype-typst": "^0.5.4",
@@ -98,6 +100,8 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.3.4",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
