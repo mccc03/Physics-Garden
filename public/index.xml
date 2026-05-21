@@ -6,65 +6,65 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Binary symplectic format</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Binary-symplectic-format</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Binary-symplectic-format</guid>
+    <title>Lifted Product codes</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</guid>
+    <description> Take two classical codes A_\bullet,B_\bullet, with parity check matrix H_a,H_b respectively.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Total complex of the product complex</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Total-complex-of-the-product-complex</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Total-complex-of-the-product-complex</guid>
+    <description>Take two chain complexes A_\bullet \coloneqq\left(\left\{A_i\right\},\left\{\partial^{A_\bullet}_i\right\}\right) and B_\bullet \coloneqq\left(\left\{B_i\right\},\left\{\partial^{B_\bullet}_i\right\}\right), defined over the ring R, of respective lengths m_A,m_B.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Classical parity check matrix</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Classical-Error-Correction/Classical-parity-check-matrix</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Classical-Error-Correction/Classical-parity-check-matrix</guid>
+    <description>TODO.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Cellular chain complexes</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cellular-chain-complexes</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cellular-chain-complexes</guid>
+    <description>Cellular chain modules Let X = (X_\bullet, \phi _\bullet) be a 2-dimensional cell complex; we define a family of free \mathbb{Z}-modules \left\{C_n\right\}_{n\in\mathbb{N}} called cellular chain modules as follows: define C_n\coloneqq 0 for n&gt;2, while for n=0,1,2 we have: C_n \coloneqq \corr{X_n}...</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Cellular cochain complexes</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cellular-cochain-complexes</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cellular-cochain-complexes</guid>
+    <description>We define a cellular cochain complex similarly to how we define a cellular chain complex.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Cochain complex</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cochain-complex</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cochain-complex</guid>
+    <description>The dual concept of a chain complex is that of a cochain complex.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Cohomologies</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cohomologies</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cohomologies</guid>
+    <description>The concept of cohomologies is the dual of that of homologies.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Künneth formula</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/K%C3%BCnneth-formula</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/K%C3%BCnneth-formula</guid>
+    <description>Take two chain complexes A_\bullet and B_\bullet, defined over the ring R.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Matrices</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</guid>
+    <description>Homomorphisms between free, finitely-generated, modules can be encoded using matrices, defined as follows.</description>
+    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+  </item><item>
+    <title>Symplectic format</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Symplectic-format</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Symplectic-format</guid>
     <description>Qubits It is possible to perform a mapping between Pauli operators and two bit words: \begin{aligned} (0\vert0) &amp; \leftrightarrow I \\ (1\vert0) &amp; \leftrightarrow X \\ (0\vert1) &amp; \leftrightarrow Z \\ (1\vert1) &amp; \leftrightarrow Y \end{aligned} so that a generic Pauli operator (up to...</description>
     <pubDate>Sat, 16 May 2026 10:06:51 GMT</pubDate>
-  </item><item>
-    <title>Homology of a cell complex</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homology-of-a-cell-complex</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homology-of-a-cell-complex</guid>
-    <description>Having mapped a cell complex X=(X_\bullet,\phi _\bullet) into a cellular chain complex C_\bullet, we can perform a homological study on the latter.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Ideals</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ideals</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ideals</guid>
-    <description>Consider a ring R.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Modules</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Modules</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Modules</guid>
-    <description>Modules are a generalization of vector spaces. Let R be a ring and let M be an abelian group.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Oriented equivalence</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Oriented-equivalence</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Oriented-equivalence</guid>
-    <description>Let A be a set and take its orientation closure \vec{A} together with the action of e^{i\pi \mathbb{Z}}.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Principal Integral Domain (PID)</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Principal-Integral-Domain-(PID)</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Principal-Integral-Domain-(PID)</guid>
-    <description>A non-zero ring R that does not contain any non-zero zero-divisors, and where every ideal is generated by a single element, is called a principal integral domain.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Quotient modules</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-modules</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-modules</guid>
-    <description> Let (M,\mu) be an R-module and N\leq M be a submodule.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Quotient of abstract cell complex</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-of-abstract-cell-complex</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-of-abstract-cell-complex</guid>
-    <description>Let X=(X_\bullet,\phi_\bullet) be an abstract 2-dimensional cell complex and let \sim be a coherent equivalence on the complex; we define the quotient of X by \sim, denoted with \sfrac{X}{\sim}, to be the abstract 2-dimensional cell complex: (\mathcal{Q}_\bullet,\varkappa_\bullet) obtained by identi...</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Quotient rings</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</guid>
-    <description>Let R be a ring and I\ideal R an ideal.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
-  </item><item>
-    <title>Rings</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Rings</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Rings</guid>
-    <description>A ring is a structure of the type (R,+,\cdot,0,1) where R is a set (called carrier) upon which we can perform the binary operations: +,\cdot: R\times R\mapsto R called, respectively, addition and multiplication; 0,1 are distinct elements of R.</description>
-    <pubDate>Thu, 14 May 2026 08:54:02 GMT</pubDate>
   </item>
     </channel>
   </rss>
