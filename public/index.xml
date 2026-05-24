@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</guid>
     <description> Take two classical codes A_\bullet,B_\bullet, with parity check matrix H_a,H_b respectively.</description>
-    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+    <pubDate>Sun, 24 May 2026 15:47:47 GMT</pubDate>
   </item><item>
     <title>Total complex of the product complex</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Total-complex-of-the-product-complex</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Total-complex-of-the-product-complex</guid>
     <description>Take two chain complexes A_\bullet \coloneqq\left(\left\{A_i\right\},\left\{\partial^{A_\bullet}_i\right\}\right) and B_\bullet \coloneqq\left(\left\{B_i\right\},\left\{\partial^{B_\bullet}_i\right\}\right), defined over the ring R, of respective lengths m_A,m_B.</description>
-    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
+    <pubDate>Sun, 24 May 2026 15:47:47 GMT</pubDate>
+  </item><item>
+    <title>Hypergraph Product codes</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</guid>
+    <description>TODO.</description>
+    <pubDate>Sun, 24 May 2026 15:47:47 GMT</pubDate>
   </item><item>
     <title>Classical parity check matrix</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Classical-Error-Correction/Classical-parity-check-matrix</link>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</guid>
     <description>Homomorphisms between free, finitely-generated, modules can be encoded using matrices, defined as follows.</description>
     <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
-  </item><item>
-    <title>Symplectic format</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Symplectic-format</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Symplectic-format</guid>
-    <description>Qubits It is possible to perform a mapping between Pauli operators and two bit words: \begin{aligned} (0\vert0) &amp; \leftrightarrow I \\ (1\vert0) &amp; \leftrightarrow X \\ (0\vert1) &amp; \leftrightarrow Z \\ (1\vert1) &amp; \leftrightarrow Y \end{aligned} so that a generic Pauli operator (up to...</description>
-    <pubDate>Sat, 16 May 2026 10:06:51 GMT</pubDate>
   </item>
     </channel>
   </rss>

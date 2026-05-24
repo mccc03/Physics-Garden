@@ -197,6 +197,9 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Distances/Kolmogorov-distance</loc>
     <lastmod>2026-01-18T16:41:14.070Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Distances/Kullback-Leibler-divergence</loc>
+    <lastmod>2026-01-18T16:41:14.072Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Distances/Qubit-distance</loc>
     <lastmod>2026-01-18T16:41:14.071Z</lastmod>
   </url><url>
@@ -284,6 +287,9 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Conditional-entropy</loc>
     <lastmod>2026-01-18T16:41:14.073Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Relative-entropy</loc>
+    <lastmod>2026-01-18T16:41:14.074Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Entropies/Shannon-entropy</loc>
     <lastmod>2026-01-18T16:41:14.075Z</lastmod>
   </url><url>
@@ -292,6 +298,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Closed-systems</loc>
     <lastmod>2026-01-18T16:41:14.084Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Coherent-states</loc>
+    <lastmod>2026-01-18T16:41:14.095Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Composite-systems</loc>
     <lastmod>2026-01-18T16:41:14.085Z</lastmod>
@@ -340,6 +349,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Qubits</loc>
     <lastmod>2026-01-18T16:41:14.092Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Qudits</loc>
+    <lastmod>2026-05-15T09:13:14.734Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Schmidt-decomposition</loc>
     <lastmod>2026-01-18T16:41:14.093Z</lastmod>
@@ -520,6 +532,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Controlled-unitaries</loc>
     <lastmod>2026-01-18T16:41:14.126Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Cyclic-gate</loc>
+    <lastmod>2026-04-28T06:44:39.609Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Computation/Function-Gate</loc>
     <lastmod>2026-01-18T16:41:14.127Z</lastmod>
@@ -726,7 +741,7 @@
     <lastmod>2026-05-14T08:54:02.909Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Total-complex-of-the-product-complex</loc>
-    <lastmod>2026-05-21T07:04:47.691Z</lastmod>
+    <lastmod>2026-05-24T15:47:47.576Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Universal-coefficient-theorem</loc>
     <lastmod>2026-05-14T08:54:02.909Z</lastmod>
@@ -794,8 +809,11 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Fault-tolerant-logical-gates</loc>
     <lastmod>2026-01-18T16:41:14.509Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</loc>
+    <lastmod>2026-05-24T15:47:47.576Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</loc>
-    <lastmod>2026-05-21T07:04:47.692Z</lastmod>
+    <lastmod>2026-05-24T15:47:47.578Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</loc>
     <lastmod>2026-01-18T16:41:14.510Z</lastmod>
