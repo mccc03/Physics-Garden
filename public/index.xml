@@ -6,6 +6,12 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>T-state injection</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/T-state-injection</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/T-state-injection</guid>
+    <description>qec protocols This protocol allows for the implementation of T-gates (see here) on qubits on which the application of these gates may not be possible due to technical limitations, through the use of an auxiliary qubit.</description>
+    <pubDate>Tue, 26 May 2026 07:35:11 GMT</pubDate>
+  </item><item>
     <title>Lifted Product codes</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/K%C3%BCnneth-formula</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/K%C3%BCnneth-formula</guid>
     <description>Take two chain complexes A_\bullet and B_\bullet, defined over the ring R.</description>
-    <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
-  </item><item>
-    <title>Matrices</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Matrices</guid>
-    <description>Homomorphisms between free, finitely-generated, modules can be encoded using matrices, defined as follows.</description>
     <pubDate>Thu, 21 May 2026 07:04:47 GMT</pubDate>
   </item>
     </channel>
