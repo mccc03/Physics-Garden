@@ -624,13 +624,13 @@
     <lastmod>2026-04-09T14:55:28.368Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Change-of-ring-for-chain-complexes</loc>
-    <lastmod>2026-04-23T12:32:48.111Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.964Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Change-of-ring-for-homologies</loc>
     <lastmod>2026-05-14T08:54:02.908Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cochain-complex</loc>
-    <lastmod>2026-05-21T07:04:47.690Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.964Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Coherent-equivalence</loc>
     <lastmod>2026-05-14T08:54:02.908Z</lastmod>
@@ -645,7 +645,7 @@
     <lastmod>2026-05-14T08:54:02.908Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</loc>
-    <lastmod>2026-04-23T12:32:48.111Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Finitary-direct-sums-of-modules</loc>
     <lastmod>2026-04-09T14:55:28.370Z</lastmod>
@@ -681,10 +681,10 @@
     <lastmod>2026-05-21T07:04:47.690Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Module-homomorphisms</loc>
-    <lastmod>2026-04-09T14:55:28.370Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Modules</loc>
-    <lastmod>2026-05-14T08:54:02.909Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Monoid</loc>
     <lastmod>2026-04-03T08:27:31.855Z</lastmod>
@@ -705,13 +705,13 @@
     <lastmod>2026-05-14T08:54:02.909Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</loc>
-    <lastmod>2026-05-14T08:54:02.909Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ring-homomorphism</loc>
-    <lastmod>2026-04-03T08:27:31.855Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ring-homomorphisms</loc>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Rings</loc>
-    <lastmod>2026-05-14T08:54:02.909Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Semigroup</loc>
     <lastmod>2026-04-03T08:27:31.855Z</lastmod>
@@ -794,8 +794,8 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</loc>
     <lastmod>2026-01-18T16:41:14.512Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-code</loc>
-    <lastmod>2026-01-18T16:41:14.503Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-codes</loc>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Decoding-in-stabilizer-codes</loc>
     <lastmod>2026-01-18T16:41:14.504Z</lastmod>
@@ -810,10 +810,10 @@
     <lastmod>2026-01-18T16:41:14.509Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</loc>
-    <lastmod>2026-05-24T15:47:47.576Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</loc>
-    <lastmod>2026-05-24T15:47:47.578Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Locality-preserving-gates</loc>
     <lastmod>2026-01-18T16:41:14.510Z</lastmod>
@@ -831,10 +831,10 @@
     <lastmod>2026-01-18T16:41:14.506Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</loc>
-    <lastmod>2026-04-23T12:32:48.112Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Steane-code</loc>
-    <lastmod>2026-01-18T16:41:14.513Z</lastmod>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Surface-Code</loc>
     <lastmod>2026-04-26T12:51:50.696Z</lastmod>
