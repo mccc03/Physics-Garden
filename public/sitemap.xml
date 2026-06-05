@@ -644,6 +644,9 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Exact-sequences</loc>
     <lastmod>2026-05-14T08:54:02.908Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ext</loc>
+    <lastmod>2026-06-04T22:07:49.350Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</loc>
     <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
@@ -670,6 +673,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homology-of-a-cell-complex</loc>
     <lastmod>2026-05-14T08:54:02.909Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Homomorphism-functor</loc>
+    <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ideals</loc>
     <lastmod>2026-05-14T08:54:02.909Z</lastmod>
@@ -707,6 +713,9 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</loc>
     <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Resolutions</loc>
+    <lastmod>2026-06-04T22:07:49.350Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ring-homomorphisms</loc>
     <lastmod>2026-05-27T14:29:09.965Z</lastmod>
   </url><url>
@@ -717,6 +726,9 @@
     <lastmod>2026-04-03T08:27:31.855Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</loc>
+    <lastmod>2026-06-04T22:07:49.350Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-theorem-under-change-of-ring</loc>
     <lastmod>2026-06-04T22:07:49.350Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Subcomplexes</loc>
@@ -767,6 +779,9 @@
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Classical-Error-Correction/Linear-codes</loc>
     <lastmod>2026-01-18T16:41:14.493Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Classical-Error-Correction/Repetition-codes</loc>
+    <lastmod>2026-05-26T22:45:47.442Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Code-blocks</loc>
     <lastmod>2026-01-18T16:41:14.143Z</lastmod>
   </url><url>
@@ -793,6 +808,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Bravyi-K%C3%B6nig-theorem</loc>
     <lastmod>2026-01-18T16:41:14.512Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-codes-from-homological-algebra</loc>
+    <lastmod>2026-06-04T22:07:49.350Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-codes</loc>
     <lastmod>2026-05-27T14:29:09.965Z</lastmod>
@@ -829,6 +847,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Parity-check-matrix</loc>
     <lastmod>2026-01-18T16:41:14.506Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/QLDPC-codes</loc>
+    <lastmod>2026-05-26T22:09:13.584Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</loc>
     <lastmod>2026-05-27T14:29:09.965Z</lastmod>

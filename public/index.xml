@@ -24,6 +24,12 @@
     <description>The concept of cohomologies is the dual of that of homologies.</description>
     <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
+    <title>Ext</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ext</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ext</guid>
+    <description>Let A,B be \mathbb{Z}-modules and let F_\bullet \overset{\epsilon}{\mapsto}A be a free resolution (note that TODO actually it should be a flat and projective resolution but free works fine for now) of A.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
+  </item><item>
     <title>Free resolutions</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</guid>
@@ -36,34 +42,28 @@
     <description>Modules are a generalization of vector spaces. Let R be a ring and let M be an abelian group.</description>
     <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
+    <title>Resolutions</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Resolutions</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Resolutions</guid>
+    <description>TODO Make a list of resolutions with links to various resolutions and left/right.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
+  </item><item>
     <title>Structure Theorem for Finitely Generated Modules over PID</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</guid>
     <description>Let R be a PID and let M be a nonzero finitely-generated R-module.</description>
     <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
+    <title>Structure theorem under change of ring</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-theorem-under-change-of-ring</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-theorem-under-change-of-ring</guid>
+    <description>Let C_\bullet be a chain complex of \mathbb{Z}-modules associated to a 2-dimensional cell complex X; then, the first homology over \mathbb{Z}_d (see modular arithmetic) of the complex is: H_1^{\mathbb{Z}_d}(C_\bullet) \cong \mathbb{Z}_d ^{\oplus k&#039;}\oplus\bigoplus_{i=1}^{k&#039;&#039;}\mathbb{Z...</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
+  </item><item>
     <title>Tensor products</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tensor-products</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tensor-products</guid>
     <description>Let R be a ring and let M,N be R-modules.</description>
-    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
-  </item><item>
-    <title>Tor</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tor</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tor</guid>
-    <description>Let A,B be \mathbb{Z}-modules and let F_\bullet \overset{\epsilon}{\mapsto}A be a free resolution of A.</description>
-    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
-  </item><item>
-    <title>Torsion</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Torsion</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Torsion</guid>
-    <description>Let M be an R-module.</description>
-    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
-  </item><item>
-    <title>Universal coefficient theorem</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Universal-coefficient-theorem</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Universal-coefficient-theorem</guid>
-    <description>TODO more generally you could use modules instead of rings Homologies Let C_\bullet be a chain complex of \mathbb{Z}-modules and let G be a module.</description>
     <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item>
     </channel>
