@@ -6,65 +6,65 @@
       <description>Last 10 notes on Physics Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Extension of scalars</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Extension-of-scalars</guid>
-    <description>Similarly to what we did for tensor product modules, we can somehow extend, given the rings R,S, an R-module into an S-module.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Qudits</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Qudits</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Foundations/Qudits</guid>
+    <description>Qudits are states of the density matrix space of a d-dimensional Hilbert space and are the d-dimensional analogue of qubits.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>Module homomorphisms</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Module-homomorphisms</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Module-homomorphisms</guid>
-    <description> Let R be a ring and let (M,\mu), (N,\nu) be R-modules.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Cochain complex</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cochain-complex</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cochain-complex</guid>
+    <description>The dual concept of a chain complex is that of a cochain complex.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
+  </item><item>
+    <title>Cohomologies</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cohomologies</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Cohomologies</guid>
+    <description>The concept of cohomologies is the dual of that of homologies.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
+  </item><item>
+    <title>Free resolutions</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Free-resolutions</guid>
+    <description>Consider an R-module M and.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
     <title>Modules</title>
     <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Modules</link>
     <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Modules</guid>
     <description>Modules are a generalization of vector spaces. Let R be a ring and let M be an abelian group.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>Quotient rings</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Quotient-rings</guid>
-    <description>Let R be a ring and I\ideal R an ideal.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Structure Theorem for Finitely Generated Modules over PID</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Structure-Theorem-for-Finitely-Generated-Modules-over-PID</guid>
+    <description>Let R be a PID and let M be a nonzero finitely-generated R-module.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>Ring homomorphisms</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ring-homomorphisms</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Ring-homomorphisms</guid>
-    <description>A function between rings R,S that preserves the ring structure is a ring homomorphism.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Tensor products</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tensor-products</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tensor-products</guid>
+    <description>Let R be a ring and let M,N be R-modules.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>Rings</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Rings</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Rings</guid>
-    <description>A ring is a structure of the type (R,+,\cdot,0,1) where R is a set (called carrier) upon which we can perform the binary operations: +,\cdot: R\times R\mapsto R called, respectively, addition and multiplication; 0,1 are distinct elements of R.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Tor</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tor</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Tor</guid>
+    <description>Let A,B be \mathbb{Z}-modules and let F_\bullet \overset{\epsilon}{\mapsto}A be a free resolution of A.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>CSS codes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-codes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/CSS-codes</guid>
-    <description>A Calderbank-Shor-Steane (CSS) code is a Stabilizer code that can be generated by a set of pure X and pure Z stabilizers.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Torsion</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Torsion</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Torsion</guid>
+    <description>Let M be an R-module.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item><item>
-    <title>Hypergraph Product codes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Hypergraph-Product-codes</guid>
-    <description> Let \Gamma_A = (V_A,E_A) and \Gamma_B = (V_B,E_B) be two graphs.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
-  </item><item>
-    <title>Lifted Product codes</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Lifted-Product-codes</guid>
-    <description> Take two classical codes A_\bullet,B_\bullet, with parity check matrix H_a,H_b respectively.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
-  </item><item>
-    <title>Stabilizer code</title>
-    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</link>
-    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Stabilizer-formalism/Stabilizer-code</guid>
-    <description>The main idea behind stabilizer codes consists in shifting the focus from the vector space (codewords) to the operator space.</description>
-    <pubDate>Wed, 27 May 2026 14:29:09 GMT</pubDate>
+    <title>Universal coefficient theorem</title>
+    <link>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Universal-coefficient-theorem</link>
+    <guid>https://quartz.jzhao.xyz/Quantum-Information/Quantum-Error-Correction/Algebraic-topology/Universal-coefficient-theorem</guid>
+    <description>TODO more generally you could use modules instead of rings Homologies Let C_\bullet be a chain complex of \mathbb{Z}-modules and let G be a module.</description>
+    <pubDate>Thu, 04 Jun 2026 22:07:49 GMT</pubDate>
   </item>
     </channel>
   </rss>

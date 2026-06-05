@@ -10,14 +10,14 @@
 }
 
 /* Customize the title within the callout */
-.callout[data-callout="def"] .callout-title {
+.callout[data-callout="def"] > .callout-title {
   color: #81a1c1;
   font-weight: bold; /* Bold title */
   font-size: 1.2em; /* Slightly larger title */
 }
 
 /* Add a custom emoji icon explicitly */
-.callout[data-callout="def"] .callout-title::before {
+.callout[data-callout="def"] > .callout-title::before {
   content: "🔮"; /* Use your custom emoji or character */
   margin-right: 8px; /* Spacing between the icon and the title */
 }
@@ -34,14 +34,14 @@
 }
 
 /* Customize the title within the theorem callout */
-.callout[data-callout="th"] .callout-title {
+.callout[data-callout="th"] > .callout-title {
   color: #BD93F9;
   font-weight: bold; /* Bold title */
   font-size: 1.2em; /* Slightly larger title */
 }
 
 /* Add a custom emoji icon explicitly */
-.callout[data-callout="th"] .callout-title::before {
+.callout[data-callout="th"] > .callout-title::before {
   content: "🔭"; /* Icon for the theorem */
   margin-right: 8px; /* Spacing between the icon and the title */
 }
@@ -58,14 +58,14 @@
 }
 
 /* Customize the title within the proof callout */
-.callout[data-callout="proof"] .callout-title {
+.callout[data-callout="proof"] > .callout-title {
   color: #B48EAD; /* Darker purple for the title */
   font-weight: bold; /* Bold title */
   font-size: 1.2em; /* Slightly larger title */
 }
 
 /* Add a custom emoji icon explicitly for the proof */
-.callout[data-callout="proof"] .callout-title::before {
+.callout[data-callout="proof"] > .callout-title::before {
   content: "🔬"; /* Use your custom emoji or character for the proof */
   margin-right: 8px; /* Spacing between the icon and the title */
 }
@@ -82,14 +82,14 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="algo"] .callout-title {
+.callout[data-callout="algo"] > .callout-title {
   color: #5E81AE;
   font-weight: bold; /* Bold title */
   font-size: 1.2em; /* Slightly larger title */
 }
 
 /* Add a custom emoji or symbol for the algorithm callout */
-.callout[data-callout="algo"] .callout-title::before {
+.callout[data-callout="algo"] > .callout-title::before {
   content: "👾"; /* Custom emoji or symbol for algorithm */
   margin-right: 8px; /* Spacing between the icon and the title */
   font-size: 1.2em; /* Adjust the size of the emoji/icon */
@@ -107,14 +107,14 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="notation"] .callout-title {
+.callout[data-callout="notation"] > .callout-title {
   color: #6dbda0;
   font-weight: bold; /* Bold title */
   font-size: 1.2em; /* Slightly larger title */
 }
 
 /* Add a custom emoji or symbol for the algorithm callout */
-.callout[data-callout="notation"] .callout-title::before {
+.callout[data-callout="notation"] > .callout-title::before {
   content: "🤓"; /* Custom emoji or symbol for algorithm */
   margin-right: 8px; /* Spacing between the icon and the title */
   font-size: 1.2em; /* Adjust the size of the emoji/icon */
@@ -135,7 +135,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="metadata"] .callout-title {
+.callout[data-callout="metadata"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
@@ -154,7 +154,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="biblio"] .callout-title {
+.callout[data-callout="biblio"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
@@ -173,7 +173,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="biblio"] .callout-title {
+.callout[data-callout="biblio"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
@@ -192,7 +192,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="citations"] .callout-title {
+.callout[data-callout="citations"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
@@ -211,7 +211,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="link"] .callout-title {
+.callout[data-callout="link"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
@@ -231,7 +231,7 @@
 }
 
 /* Customize the title within the algorithm callout */
-.callout[data-callout="pdf"] .callout-title {
+.callout[data-callout="pdf"] > .callout-title {
   color: #ffffff;
   font-weight: bold; /* Bold title */
   font-size: 1em; /* Slightly larger title */
